@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_myfeed"
+        android:title="Home"/>
+
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_check"
+        android:title="Doctors Emailed"/>
+    <item
+        android:id="@+id/compatible"
+        android:icon="@drawable/compatible"
+        android:title="Best Suited For Me"/>
+
+    <item android:title="Groups">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/surg"
+                    android:icon="@drawable/doctor1"
+                    android:title="Surgeon"/>
+                <item
+                    android:id="@+id/aller"
+                    android:icon="@drawable/doctor2"
+                    android:title="Allergists/Immunologists"/>
+                <item
+                    android:id="@+id/cardio"
+                    android:icon="@drawable/doctor3"
+                    android:title="Cardiologists"/>
+                <item
+                    android:id="@+id/derma"
+                    android:icon="@drawable/doctor4"
+                    android:title="Dermatologists"/>
+                <item
+                    android:id="@+id/gast"
+                    android:icon="@drawable/doctor5"
+                    android:title="Gastroenterologists"/>
+                <item
+                    android:id="@+id/hema"
+                    android:icon="@drawable/doctor6"
+                    android:title="Hematologists"/>
+                <item
+                    android:id="@+id/neuro"
+                    android:icon="@drawable/doctor7"
+                    android:title="Neurologists"/>
+                <item
+                    android:id="@+id/onco"
+                    android:icon="@drawable/doctor8"
+                    android:title="Oncologists"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Actions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_profile"
+                    android:title="Profile"/>
+                <item
+                    android:id="@+id/notifications"
+                    android:visible="false"
+                    android:icon="@drawable/ic_notifications"
+                    android:title="Notifications"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="Log Out"/>
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About"/>
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share"/>
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

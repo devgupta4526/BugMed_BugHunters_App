@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408320561865",
+    "project_id": "bugmed-79616",
+    "storage_bucket": "bugmed-79616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408320561865:android:875b6f57431027c5083318",
+        "android_client_info": {
+          "package_name": "com.bughunters.bugmed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408320561865-0di1b7bvhnd29h9iv8h3138n5gph79ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGjorkZ0QlZHxhD6th04eMfrMgq3jCXes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408320561865-0di1b7bvhnd29h9iv8h3138n5gph79ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

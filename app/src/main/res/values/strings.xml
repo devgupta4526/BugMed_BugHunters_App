@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">bugmed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_map_key">AIzaSyB9MxxJBmzLHdfsMEZSdV0vORR_MRwirPI</string>
+
+    <string-array name="DoctorType">
+        <item>Select your Type</item>
+        <item>surgeon</item>
+        <item>Allergists/Immunologists</item>
+        <item>Cardiologists</item>
+        <item>Dermatologists</item>
+        <item>Gastroenterologists</item>
+        <item>Hematologists</item>
+        <item>Neurologists</item>
+        <item>Oncologists</item>
+    </string-array>
+
+    <string-array name="PatientType">
+        <item>Select your major problem specilist</item>
+        <item>surgeon</item>
+        <item>Allergists/Immunologists</item>
+        <item>Cardiologists</item>
+        <item>Dermatologists</item>
+        <item>Gastroenterologists</item>
+        <item>Hematologists</item>
+        <item>Neurologists</item>
+        <item>Oncologists</item>
+    </string-array>
+
+
+    <string-array name="bloodgroups">
+        <item>Select your blood group</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+</resources>
